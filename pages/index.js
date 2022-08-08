@@ -59,11 +59,11 @@ const Index = () => {
       {/* card component */}
       
       <div ref={ref}>
-        <div className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 ">
+        <div className="bg-white shadow-md rounded pt-6 pb-8 mb-4 ">
           {/* <!-- component --> */}
-          <div className="bg-white h-full cursor-pointer  flex justify-center items-center">
-            <div className="space-y-16">
-              <div className="w-96 h-56 m-auto bg-red-100 rounded-xl relative text-white shadow-2xl transition-transform transform ease-out duration-500 hover:scale-110">
+          <div className="bg-white h-full cursor-pointer flex justify-center items-center">
+            <div className="space-y-16 px-8 ml-8">
+              <div className="w-96 h-56  m-auto bg-red-100 rounded-xl relative text-white shadow-2xl transition-transform transform ease-out duration-500 hover:scale-110">
 
                 <img className="relative object-cover w-full h-full rounded-xl" src="https://i.imgur.com/kGkSg1v.png"/>
 
