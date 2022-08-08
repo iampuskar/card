@@ -3,7 +3,7 @@ import Pdf from "react-to-pdf";
 
 const ref = React.createRef();
 
-const index = () => {
+const Index = () => {
   const [name, setName] = useState();
   const [number, setNumber] = useState();
   const [valid, setValid] = useState();
@@ -127,4 +127,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
